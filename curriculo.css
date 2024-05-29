@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #333;
+}
+
+header p {
+  margin: 5px 0;
+  color: #333;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+.job, .education, .certification {
+  margin-bottom: 15px;
+}
+
+.job h3, .education h3, .certification h3, .idiomas h3 {
+  margin: 0;
+  color: #333;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .container {
+      margin: 10px;
+      padding: 15px;
+  }
+
+  header h1 {
+      font-size: 1.5em;
+  }
+
+  header p, section h2 {
+      font-size: 1em;
+  }
+}
+header h3 {
+  font-size: 1.5em;
+}
+
+header p, section h3 {
+  font-size: 1em;
+}
